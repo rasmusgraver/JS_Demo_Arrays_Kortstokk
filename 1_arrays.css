@@ -1,0 +1,16 @@
+body {
+    background-image: url("green.png");
+    background-size: cover;
+}
+
+img {
+    width: 100px;
+    margin: 10px;
+}
+
+section {
+    min-height: 100px;
+    border: 5px dashed blue;
+    padding: 10px;
+}
+
