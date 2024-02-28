@@ -2,7 +2,6 @@
 let currentSection = null
 
 
-
 /*
  * Funkskjoner med å legge til sections og cards:
  */
