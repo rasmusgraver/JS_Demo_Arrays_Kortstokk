@@ -9,6 +9,11 @@ cards.push("1_of_spades")
 cards.push("13_of_diamonds")
 cards.push("5_of_hearts")
 
+// Fjern et kort fra starten:
+cards.shift()
+// Fjern et kort fra slutten:
+cards.pop()
+
 // Viser kortene i en blå section:
 addSection("blue")
 addCards(cards)
@@ -17,4 +22,3 @@ addCards(cards)
 cards.sort(sammenliknKortEtterTall)
 addSection("pink")
 addCards(cards)
-

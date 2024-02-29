@@ -1,6 +1,5 @@
-// Global variabel som holder styr på hvilken section vi er i 
+// Global variabel som holder styr på hvilken section vi er i
 let currentSection = null
-
 
 /*
  * Funkskjoner med å legge til sections og cards:
@@ -21,5 +20,4 @@ function addCards(cards) {
         img.src = "kortstokk/" + cardName + ".png"
         currentSection.appendChild(img)
     }
-
 }
