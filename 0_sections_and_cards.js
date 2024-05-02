@@ -14,10 +14,15 @@ function addSection(borderColor) {
 // Legg til kortene i "gjeldende" section
 // input parameter: cards - array med navn på kortene
 function addCards(cards) {
-    for (let i = 0; i < cards.length; i++) {
-        cardName = cards[i]
+    i = 0
+    for (const cardName of cards) {
         const img = document.createElement("img")
         img.src = "kortstokk/" + cardName + ".png"
         currentSection.appendChild(img)
+        i++
+        if (i%13 == 0) { // Legg til linjeskift for hvert 13. element
+            const br = document.createElement("br")
+            currentSection.appendChild(br)
+        }
     }
 }
